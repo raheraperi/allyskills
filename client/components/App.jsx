@@ -1,10 +1,15 @@
 import React from 'react'
 
-const App = () => {
-  return (
-    <h1>React development has begun!</h1>
-  )
-}
+import Header from './Header.jsx'
+import Nav from './Nav.jsx'
+import Footer from './Footer.jsx'
+
+const App = () => (
+  <div className='container'>
+    <Header head = {Header} />
+    <Nav nav= {Nav} />
+    <Footer footer = {Footer} />
+  </div>
+)
 
 export default App
-
