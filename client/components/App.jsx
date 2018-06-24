@@ -5,6 +5,7 @@ import Home from './Home'
 import About from './About'
 import Assess from './Assess'
 import Share from './Share'
+import Footer from './Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             <Route exact path='/' component={About} />
             <Route path='/' component={Assess} />
             <Route path='/' component={Share} />
+            <Route path='/' component={Footer} />
           </div>
         </div>
       </div>
