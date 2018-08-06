@@ -1,16 +1,36 @@
-# A starter webpack project for React
+E Hoa - Ally 
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
+An online tool to support allies and marginalised communities understand where they are on their allyship journey, as well as how they can learn and improve their ally skills in the workplace.
 
-* Fork this repo
-* Rename your repo according to the app you're building
+Install
+To get started, follow the below:
 
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && yarn
-```
+git clone https://github.com/raheraperi/ehoa-ally
+cd ehoa-ally
+yarn
+yarn dev
 
-To start the development server with a watcher that rebuilds your code, run `yarn dev`. The assets built by webpack are placed in `server/public`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
+MVP
+1. Users of E Hoa - Ally will predominantly be allies looking to sharpen up their ally skills. 
 
-Additional components should be placed in `client/components`.
+MVP consists of the following pages:
 
+User stories:
+As an Ally, I want to assess myself against metrics which give me an indication on how progressed I am along my allyship journey and where I might improve.
+
+As an Ally, I want a safe, non-judgemental place to share my experiences of allyship in the workplace.
+
+As an Ally, I want access to relevant, accessible and informative articles/resources to inform myself better on issues that are important to those who are members of marginalised groups and communities.
+
+.......
+
+PROCESS:
+File set up
+Seeds and Migrations
+Routes
+Functions in db.js
+Test server
+Wireframes for the different screens
+React components
+Test browser
+CSS
