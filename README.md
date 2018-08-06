@@ -21,12 +21,12 @@ yarn dev
 3. As an Ally, I want access to relevant, accessible and informative articles/resources to inform myself better on issues that are important to those who are members of marginalised groups and communities.
 
 ## PROCESS:
-*File set up
-*Seeds and Migrations
-*Routes
-*Functions in db.js
-*Test server
-*Wireframes for the different screens
-*React components
-*Test browser
-*CSS
+* File set up
+* Seeds and Migrations
+* Routes
+* Functions in db.js
+* Test server
+* Wireframes for the different screens
+* React components
+* Test browser
+* CSS
